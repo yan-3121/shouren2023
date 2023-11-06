@@ -568,10 +568,14 @@ h1, h2, p {
   background-color: #50a199;
 }
 .how_to_apply .apply_flow {
-  margin-block: 24px;
+  margin-top: 24px;
 }
 .how_to_apply .apply_flow img {
   max-width: 100%;
+}
+.how_to_apply .apply_flow__description {
+  font-size: 9px;
+  margin-bottom: 24px;
 }
 .how_to_apply .apply__cont {
   display: flex;
