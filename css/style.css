@@ -509,6 +509,11 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   color: #4D5156;
 }
+@media (600px <= width) {
+  body {
+    font-weight: bold;
+  }
+}
 
 h1, h2, p {
   margin: 0;
@@ -548,6 +553,11 @@ h1, h2, p {
   padding-inline: 4.2%;
   padding-block: 16px;
 }
+@media (600px <= width) {
+  .wrapper {
+    padding-block: 40px;
+  }
+}
 
 .fv__item img {
   max-width: 100%;
@@ -566,6 +576,7 @@ h1, h2, p {
 @media (600px <= width) {
   .about .about__description {
     font-size: 16px;
+    margin-top: 40px;
   }
 }
 .about .about__limit {
@@ -585,6 +596,12 @@ h1, h2, p {
 }
 .how_to_apply .apply_flow {
   margin-block: 24px;
+}
+@media (600px <= width) {
+  .how_to_apply .apply_flow {
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
 }
 .how_to_apply .apply_flow img {
   max-width: 100%;
